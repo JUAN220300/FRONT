@@ -1,0 +1,835 @@
+
+
+/******************1360px LO DISEÑE CON EL TAMAÑO DE MI COMPUTADORA****************/
+/**LO VI BIEN EN FIREFOX*/
+
+/*estilos generales*/
+
+body{
+  width: 1360px; /*tamaño pantalla mi pc*/
+  font-family: 'Be vietnam pro';
+  margin-left:0px ;
+  padding: 0px;
+  box-sizing: content-box;
+  background-color: 
+  #FFFFFF;
+  
+}
+
+
+
+
+
+button{ /*estilos botones GET*/
+
+
+width: 134px;
+height: 44px;
+background: #8B48BF;
+color: #FFFFFF;
+border-radius: 50px;
+border: 0px;
+}
+
+button:hover{/*manita de mis botones*/
+  cursor: pointer;
+}
+
+  
+
+/*estilo header*/
+
+
+header{
+    display: flex;
+    width: 1360px;
+    height: 30px;
+ 
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    align-items: center;
+   
+ }
+
+ /*estilo barra nav*/
+ .nav1{/*edito tamaño de etiqueta contenedora nav*/
+   
+    width: 36%;
+    font-size: 13px;
+    align-items: center;
+ }
+
+ .ul1 {/*contenido de barra nav*/
+   
+   font-size: 19px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration-line: none;
+     box-shadow: none;
+    
+ }
+
+ /*estilos del main*/
+
+  /*estilos seccion1*/
+  .seccion1{
+    width: 480px;
+    height: 386px;
+     }
+
+ h1{/*titulo principal*/
+ 
+  font-size: 56px;
+  color: #232C50;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+  top: 30px;
+  padding-top: 4.5%;
+}
+
+ .contenido1{ /*etiqueta del main*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding-bottom: 3%;
+   
+ }
+  
+
+ .parrafoS1{
+   width: 420px;
+   height: 71px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 19px;
+   line-height: 157.1%;
+   display: flex;
+   align-items: center;
+   margin-bottom: 8%;
+   color: #000000;
+ }
+
+ /*seccion 2 estilos*/
+
+ .seccion3{/*contenedor principal seccion 2*/
+  
+  
+  padding-top: 2%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: row;
+  
+  
+ }
+
+ .article1{/*contenedor lado izquierdo*/
+  
+  width: 30% ;
+  height: 212px;
+  padding-left: 6%;
+  padding-right: 15%;
+  
+}
+
+
+.hdos{/*What´s different about
+  Manage? */
+  
+width: 433px;
+height: 88px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 114.6%;
+display: flex;
+align-items: center;
+color: #232851;
+
+}
+
+.prf1{/*parrafo article1*/
+  
+width: 400px;
+height: 88px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 151.1%;
+display: flex;
+align-items: center;
+color: #000000;
+flex: none;
+}
+
+/**************************segunda parte********************************/
+
+/*estilos generales 2*/
+
+.btm2{ /*boton de numeracion*/
+display: flex;
+font-weight: bold;
+justify-content: center;
+align-items: center;
+padding: 10px 25px;
+width: 69px;
+height: 43px;
+background: #8B48BF;
+color: #FFFFFF;
+border-radius: 30px;
+border: 0px;
+margin-right: 20px;
+}
+
+h3{
+width: 280px;
+height: 23px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #323851;
+}
+
+.PRF11{/*contenedor de tamaño parrafo*/
+  
+  text-align: justify;
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+ 
+
+}
+
+
+.set22{ /*CONTENEDOR PRIMARIO LADO DERECHO*/
+  
+  height: 549;
+  
+}
+
+ /*contenedor de boton y titulo*/
+
+  .div1 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-left: 11%;
+    
+
+ 
+}
+
+.div2{/*contenedor de parrafo*/
+  color: #B3B2B7;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-left: 29%;
+  
+
+}
+
+
+
+h4{ 
+
+
+font-size: 39px;
+font-weight: 700;
+line-height: 61px;
+padding-bottom: 9.5%;
+letter-spacing: -0.01em;
+text-align: center;
+color: #242E53;
+
+}
+
+/************parte 3 **********/
+/*contenedor de comentarios*/
+ 
+  .cards {
+    height: 219px;
+    margin-right: 1%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+
+
+.perfil{
+  width: 445px;
+  height: 219px;
+  text-align: center;
+  align-items: center;
+  padding: 2%;
+}
+
+
+/* Ali Bravo */
+.nombre {
+
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 156.6%;
+color: #3F4868;
+align-items: center;
+letter-spacing: -0.01em;
+position: relative;
+bottom: 57.6px;
+left: 8px;
+
+
+
+}
+
+.descripcion{
+ 
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  line-height: 156.6%;
+  align-items: center;
+  justify-content: center;
+  color: #B9B9C1;
+  flex: none;
+  position: relative;
+  bottom: 30%;
+  }
+
+
+
+.ALI{ /*posicionamiento foto*/
+width: 70px;
+height: 70px;
+position: relative;
+left: 42%;
+bottom: 21.8%;
+background-size: cover;
+box-sizing: content-box;
+
+}
+.ALI img{/*ajuste imagenes*/
+  width: 70px;
+  height: 70px;
+}
+.contain {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+   }
+
+/**************PIE DE PAGINA**************/
+
+.pie1{ /*contenedor de cajas footer 1*/
+  width: 100%;
+  height: 224px;
+  background-color: #8B48BF;
+  margin-top: 5%;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+
+.Foter{/*titulo footer 1*/
+
+width: 438px;
+height: 96px;
+padding-right: 2%;
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+letter-spacing: -0.005em;
+color: #FFFFFF;
+position: relative;
+
+}
+
+
+.btmwhithe{ /*estilos boton footer*/
+
+  background: #FFFFFF;
+  color: #8B48BF;   
+
+}
+
+.pie2{/*pie de pagina 2*/
+  width: 100%;
+  height: 247px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1E1E26;
+  
+}
+   
+.redes{/*contenedor de imagenes principales y redes*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: flex-end;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.redesls{ /*contenedor de lista de redes */
+  width: 100%;
+  height: 22.05px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0%;
+  
+}
+
+
+
+
+.nav2 { /*Barra de nav footer*/
+  width: 392.73px;
+  height: 100%;
+  padding-top: 52.93px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 37px;
+  display: flex;
+  align-items: flex-start;
+  color: #FFFFFF;
+  justify-content: space-between;
+}
+
+
+.form{/*caja madre*/
+  width: 273px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form input{ /*estilo formulario*/
+text-align: center;
+padding: 10px;
+gap: 10px;
+width: 201px;
+height: 44px;
+background: #FFFFFF;
+border-radius: 50px;
+
+}
+
+
+.btmform{/*tamaño de boton segunda seccion de footer 2*/
+width: 63px;
+height: 42px;
+margin-left:  9px;
+
+
+
+}
+.data{
+width: 272.81px;
+height: 48.52px;
+left: 1001.3px;
+top: 2446.03px;
+display: flex;
+flex-direction: row;
+box-sizing: content-box;
+
+
+}
+
+.derechos {
+  width: 213.85px;
+  height: 19.85px;
+  padding-left: 54%;
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 18px;
+  display: flex;
+  justify-content: end;
+  color: #8C8C94;
+  align-items: flex-end;
+  box-sizing: content-box;
+}
+
+/***********************CONFIGURACION MOVIL***************************************************************************************/
+
+
+
+
+
+
+@media (min-width:481px){
+  .perfil2, .fa-solid {
+    
+    display: none;
+    
+ }
+
+ }
+
+@media(max-width: 480px){
+  header{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    align-items: center;
+   
+ }
+
+
+
+ /*estilos del main*/
+
+  /*estilos header***********/
+
+  .section2 img{
+    width: 480px;
+   
+  }
+
+  .fa-solid{ /*tamaño icon*/
+    font-size: 45px;
+    display: var(--fa-display,inline-block)
+   }
+
+  .seccion1 {
+    width: 480px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+ /*titulo principal adaptado mobile*/
+ 
+ h1 {
+  font-size: 54px;
+  color: #232C50;
+  line-height: 66px;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+
+h4{/*What they´ve said*/
+  width: 500px;
+  height: 61px;
+  box-sizing: border-box;
+
+}
+ .contenido1{ /*etiqueta del main*/
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: space-around;
+   padding-bottom: 2%;
+   
+ }
+  
+
+ /*seccion 2 estilos*/
+
+ .section2{
+  display: flex;
+  align-items: center;
+  padding-bottom: 2%;
+   }
+
+
+ /*contenedor principal seccion 2***************/
+  
+  .seccion3{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+ 
+
+ .article1{/*contenedor lado izquierdo*/
+  
+  width: 100% ;
+  height: 212px;
+  padding-left: 25px;
+  padding-right: 24px;
+  box-sizing: border-box;
+
+  
+}
+
+
+
+/*parrafo article1*/
+  
+  .prf1 {
+    width: 433px;
+    height: 88px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+
+/**************************CUADRO COMMENTS********************************/
+
+
+
+
+
+ 
+  
+  .set22{ /*CONTENEDOR DE PUNTOS (1)(2)(3)*/
+    height: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 125px;
+  }
+
+
+
+
+
+/*contenedor de boton y titulo adaptacion mobile*/
+.div1 {
+  background-color: #8b48bf4d;
+  border-radius: 50px 0px 0px 50px;
+  height: 42px;
+  align-items: center;
+  margin-left: 34px;
+  display: flex;
+  padding-left: 0;
+ 
+
+}
+
+.div2{/*contenedor de parrafo*/
+  width:408px ;
+  height: 104px;
+  padding-left: 44px;
+  color: #B3B2B7;
+
+}
+
+
+
+  
+
+
+
+
+/************CONTENEDORES DE COMMENTS**********/
+
+
+.perfil2{
+  width: 445px;
+  height: 219px;
+  text-align: center;
+  align-items: center;
+  padding: 2%;
+}
+
+
+
+
+
+
+/**************PIE DE PAGINA**************/
+
+/*contenedor de cajas footer 1*/
+.pie1 {
+  width: 100%;
+  height: 318px;
+  background-color: #8B48BF;
+  margin-top: 5%;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Foter{/*titulo footer 1*/
+
+width: 438px;
+height: 9px;
+padding-right: 2%;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+letter-spacing: -0.005em;
+color: #FFFFFF;
+position: relative;
+text-align: center;
+
+}
+
+
+.btmwhithe{ /*estilos boton footer*/
+
+  background: #FFFFFF;
+  color: #8B48BF;   
+
+}
+
+.pie2{/*pie de pagina 2*/
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1E1E26;
+  padding-bottom: 15%;
+  
+}
+   
+/*contenedor de imagenes principales y redes*/
+  .redes {
+    WIDTH: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    align-items: center;
+    JUSTIFY-CONTENT: space-around;
+}
+
+
+
+.redesls{ /*contenedor de lista de redes */
+  width: 100%;
+  height: 22.05px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0%;
+  
+}
+
+
+
+
+.nav2 { /*Barra de nav footer*/
+  width: 392.73px;
+  height: 100%;
+  padding-top: 52.93px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 37px;
+  display: flex;
+  align-items: flex-start;
+  color: #FFFFFF;
+  justify-content: space-between;
+}
+
+
+.form { /***caja padre form**/
+  width: 273px;
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+.form input { /*estilos form*/
+text-align: center;
+padding: 10px;
+gap: 10px;
+width: 308px;
+height: 44px;
+background: #FFFFFF;
+border-radius: 50px;
+}
+
+.btmform{/*tamaño de boton segunda seccion de footer 2*/
+width: 63px;
+height: 42px;
+margin-left:  9px;
+
+
+
+}
+.data{
+width: 400px;
+height: 48.52px;
+left: 1001.3px;
+top: 2446.03px;
+display: flex;
+flex-direction: row;
+box-sizing: content-box;
+
+
+}
+
+
+
+.derechos { /*derechos reservados config*/
+  width: 500px;
+  height: 19.85px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 18px;
+  justify-content: center;
+  color: #8C8C94;
+  align-items: center;
+  box-sizing: content-box;
+  text-align: center;
+ 
+}
+
+
+.derechos p{/*ubicacion del dexto de derechos*/
+position: relative;
+top: 2000%;
+
+}
+
+ }
