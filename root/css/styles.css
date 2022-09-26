@@ -6,7 +6,7 @@
 /*estilos generales*/
 
 body{
-  width: 1360px; /*tamaño pantalla mi pc*/
+  width: 100vw; /*tamaño pantalla mi pc*/
   font-family: 'Be vietnam pro';
   margin-left:0px ;
   padding: 0px;
@@ -492,8 +492,8 @@ box-sizing: content-box;
 
 
 
-
-@media (min-width:481px){
+/*aplica cuando la resolucion sea 481 NPX*/
+@media /*si  como minimo el vp tiene esta medida, aplica lo siguiente*/(min-width:481px)/*condicion*/{
   .perfil2, .fa-solid {
     
     display: none;
@@ -502,7 +502,12 @@ box-sizing: content-box;
 
  }
 
-@media(max-width: 480px){
+@media(max-width: 480px){/*si  como maximo el vp tiene esta medida, aplica lo siguiente
+  
+  tambien con respoecto a la orientacion quedaria asi  @media(max-width: 480px) and (orientation:landscape){
+
+    body{background:blue;
+  */
   header{
     display: flex;
     width: 100%;
